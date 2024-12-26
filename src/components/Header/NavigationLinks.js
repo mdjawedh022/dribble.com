@@ -41,7 +41,7 @@ const NavigationLinks = ({ isMenuOpen }) => {
 
   return (
     <nav
-      className={`lg:flex lg:items-center lg:space-x-6 text-gray-800 lg:static absolute top-16 left-0 w-full bg-white lg:bg-transparent lg:w-auto ${
+      className={`lg:flex lg:items-center lg:space-x-9 text-gray-700 lg:static absolute top-16 left-0 w-full bg-white lg:bg-transparent lg:w-auto ${
         isMenuOpen ? "block" : "hidden"
       }`}
     >
@@ -51,7 +51,7 @@ const NavigationLinks = ({ isMenuOpen }) => {
         onMouseEnter={() => handleMouseEnter("explore")}
         onMouseLeave={() => handleMouseLeave("explore")}
       >
-        <button className="font-bold hover:text-pink-500 flex items-center gap-2">
+        <button className="font-semibold hover:text-pink-500 flex items-center gap-2">
           Explore <HiOutlineChevronDown />
         </button>
         {dropdownOpen.explore && (
@@ -60,7 +60,7 @@ const NavigationLinks = ({ isMenuOpen }) => {
               <Link
                 key={link.path}
                 to={link.path}
-                className="block px-4 py-2 hover:bg-gray-100 text-sm font-bold"
+                className="block px-4 py-2 hover:bg-gray-100 text-sm font-semibold"
               >
                 {link.name}
               </Link>
@@ -75,7 +75,7 @@ const NavigationLinks = ({ isMenuOpen }) => {
         onMouseEnter={() => handleMouseEnter("hire")}
         onMouseLeave={() => handleMouseLeave("hire")}
       >
-        <button className="font-bold hover:text-pink-500 flex items-center gap-2">
+        <button className="font-semibold hover:text-pink-500 flex items-center gap-2">
           Hire a Designer <HiOutlineChevronDown />
         </button>
         {dropdownOpen.hire && (
@@ -84,7 +84,7 @@ const NavigationLinks = ({ isMenuOpen }) => {
               <Link
                 key={link.path}
                 to={link.path}
-                className="block px-4 py-2 hover:bg-gray-100 text-sm font-bold"
+                className="block px-4 py-2 hover:bg-gray-100 text-sm font-semibold"
               >
                 {link.name}
               </Link>
@@ -94,12 +94,12 @@ const NavigationLinks = ({ isMenuOpen }) => {
       </div>
 
       {/* Static Navigation Links (Find Jobs & Blog) */}
-      <div className="flex flex-col lg:flex-row lg:space-x-4 space-y-2 lg:space-y-0 mt-4 lg:mt-0">
+      <div className="flex flex-col lg:flex-row lg:space-x-4 space-y-2 lg:space-y-0 mt-4 lg:mt-0 md:flex-col md:items-start md:py-4">
         {navLinks.map((link) => (
           <Link
             key={link.path}
             to={link.path}
-            className="font-bold hover:text-pink-500"
+            className="font-semibold hover:text-pink-500"
           >
             {link.name}
           </Link>

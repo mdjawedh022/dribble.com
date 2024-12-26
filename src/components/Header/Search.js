@@ -2,11 +2,11 @@ import React from "react";
 
 const Search = () => {
   return (
-    <div className="relative flex items-center w-full max-w-md ml-6 sm:flex">
+    <div className="relative flex items-center w-full max-w-xl ml-10 sm:flex">
       <input
         type="text"
         placeholder="What are you looking for?"
-        className="w-full px-4 py-4 text-sm bg-gray-200 rounded-full focus:outline-none focus:ring focus:ring-pink-200"
+        className="w-full px-4 py-5 text-sm bg-gray-200 rounded-full focus:outline-none focus:ring focus:ring-pink-200"
       />
       <div className="absolute right-1.5 bg-pink-500 text-white p-3 rounded-full cursor-pointer">
         <svg

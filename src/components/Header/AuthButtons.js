@@ -6,7 +6,7 @@ const AuthButtons = () => {
     <div className="flex items-center space-x-4">
       <Link
         to="#signup"
-        className="hidden lg:block text-gray-800 hover:text-pink-500 font-bold"
+        className="hidden lg:block text-gray-800 hover:text-pink-500 font-semibold"
       >
         Sign up
       </Link>
