@@ -1,0 +1,140 @@
+.footer{
+    width: 78%;
+    margin: auto;
+    padding-top: 2rem;
+
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-logo{
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family:cursive;
+
+}
+.footer-nav{
+    display: flex;
+    gap: 45px;
+    align-items:center;
+    color: black;
+    font-weight: 500;
+}
+.footer-social{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    font-weight: 400;
+    margin-top:6rem;
+    margin-bottom: 3rem;
+}
+.footer-bootom-first-link{
+display: flex;
+gap: 20px;
+}
+.footer-bootom-second-link{
+    display: flex;
+    gap: 20px;
+}
+@media (max-width: 768px){ 
+    .footer{
+    width: 80%;
+    margin: auto;
+    padding-top: 2rem;
+
+}
+.footer-top{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.footer-logo{
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family:cursive;
+
+}
+.footer-nav{
+    display: flex;
+    gap:15px;
+    align-items:center;
+    color: black;
+    font-weight: 500;
+    font-size: .8rem;
+    margin: 20px 0;
+}
+.footer-social{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer-bottom{
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+    color: grey;
+    font-weight: 400;
+    font-size: .8rem;
+    margin-top:6rem;
+    margin-bottom: 3rem;
+}
+.footer-bootom-first-link{
+display: flex;
+gap: 10px;
+}
+.footer-bootom-second-link{
+    display: flex;
+    gap: 10px;
+
+}}
+@media (max-width: 480px){ 
+    .footer{
+    width: 85%;
+    margin: auto;
+    padding-top: 2rem;
+
+}
+.footer-logo{
+    font-size: 1.7rem;
+    font-weight: bold;
+    font-family:cursive;
+
+}
+.footer-nav{
+    /* display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr); */
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    gap:10px;
+    align-items:center;
+    font-size: 14px;
+    margin: 20px 0;
+}
+.footer-social{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.footer-bottom{
+    flex-direction: column;
+    align-items: center;
+    font-size: .9rem;
+}
+.footer-bootom-first-link{
+margin-bottom: 10px;
+}
+.footer-bootom-second-link{
+    display: flex;
+    gap: 10px;
+
+}}
