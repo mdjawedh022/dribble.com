@@ -48,6 +48,9 @@
 .profile-details p {
   font-size: 1rem;
   color: rgb(6, 151, 6);
+  display: flex;
+  gap: 10px;
+  align-items: center;
 }
 
 .profile-details span {
@@ -125,9 +128,9 @@
     align-items: center;
   }
 
-  .hero-actions {
+  /* .hero-actions {
     justify-content: center;
-  }
+  } */
 
   .hero-footer h1 {
     font-size: 1.5rem;
@@ -161,6 +164,7 @@
 
    .hero-content {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     gap: 5px;
   }
@@ -204,24 +208,27 @@
   .hero-video {
     width: 100vw; 
     height: auto;
-    border-radius: 0; 
+    border-radius: 15px; 
   }
 }
 
 /* For small mobile devices */
 @media (max-width: 480px) {
   .hero-section {
-  padding:7rem 1rem 1rem;
+  padding:7rem 0rem 1rem;
   margin: auto;
 }
   .hero-heading {
     font-size: 1.2rem;
+    padding: 0 1rem;
   }
 
   .hero-content {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     gap: 5px;
+    padding: 0 1rem;
   }
 .profile-image {
     width: 35px;
@@ -237,10 +244,12 @@
 
   .hero-footer h1 {
     font-size: 1.1rem;
+    padding: 0 1rem;
   }
 
   .hero-footer p {
     font-size: 0.8rem;
+    padding: 0 1rem;
   }
    .hero-video-container {
     margin: 0;

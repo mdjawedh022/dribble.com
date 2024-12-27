@@ -42,3 +42,5 @@ const Hamburger = ({ isMenuOpen, setIsMenuOpen }) => {
 };
 
 export default Hamburger;
+
+

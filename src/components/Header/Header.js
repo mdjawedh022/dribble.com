@@ -20,7 +20,10 @@ const Header = () => {
         </div>
 
         <div className="flex lg:px-[50px]">
-          <NavigationLinks isMenuOpen={isMenuOpen} />
+          <NavigationLinks
+            isMenuOpen={isMenuOpen}
+            onClose={() => setIsMenuOpen(false)}
+          />
         </div>
       </div>
 
@@ -30,3 +33,4 @@ const Header = () => {
 };
 
 export default Header;
+
