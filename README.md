@@ -3,7 +3,7 @@
 This project is a Dribbble clone built with React.js, showcasing creative work and providing a platform for designers. The app features a responsive layout with sections like a header, hero section, creative showcase, footer, and more. Users can interact with the showcased items, and the app includes action icons like favorites, bookmarks, and more.
 </br>
 </br>
-** Features **
+# Features #
 </br>
 1.Responsive Design: The app adapts to different screen sizes with a mobile-first approach.
 </br>
@@ -18,7 +18,7 @@ interactive icons.
 
 </br>
 </br>
- ** Components **
+ # Components #
 </br>
 </br>
 
