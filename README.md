@@ -137,8 +137,8 @@ npm start
  </br>
   </br>
   </br>
-![Screenshot 2024-12-27 154349](https://github.com/user-attachments/assets/f16e9bd6-917f-43de-a93f-79053f464567)
 
+![Screenshot 2024-12-27 154349](https://github.com/user-attachments/assets/546b32d3-c2af-4b07-9f1a-826c29067b3e)
 
 
  
