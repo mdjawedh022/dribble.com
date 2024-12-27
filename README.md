@@ -3,10 +3,14 @@
 This project is a Dribbble clone built with React.js, showcasing creative work and providing a platform for designers. The app features a responsive layout with sections like a header, hero section, creative showcase, footer, and more. Users can interact with the showcased items, and the app includes action icons like favorites, bookmarks, and more.
 </br>
 </hr>
+## Deploy ##
+</br>
 Vercel Deploy link:- https://dribble-com.vercel.app/
+</br>
 </br>
 Netlify Deploy link :-https://dribble-task.netlify.app/
 </hr>
+</br>
 </br>
 # Features #
 </br>
@@ -127,5 +131,14 @@ npm start
   /App.css
   </br>
 
+  </br>![Screenshot 2024-12-27 154313](https://github.com/user-attachments/assets/716797b0-7345-4954-b004-09815131bf7d)
+
+
+ </br>
   </br>
+  </br>
+![Screenshot 2024-12-27 154349](https://github.com/user-attachments/assets/f16e9bd6-917f-43de-a93f-79053f464567)
+
+
+
  
